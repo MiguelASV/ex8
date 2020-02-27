@@ -16,3 +16,8 @@
 .post-thumbnail  {
     text-align: center;
 }
+
+.wp-block-cgb-block-my-block {
+    background-color: linen;
+    font-weight: 800;
+}
