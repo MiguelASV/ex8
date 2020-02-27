@@ -1,5 +1,5 @@
 /*
- Theme Name:   Astral Enfant
+ Theme Name:   astral enfant
  Theme URI:    http://example.com/twenty-fifteen-child/
  Description:  Astral Child Theme
  Author:       Miguel Santana
@@ -9,5 +9,14 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  astralenfant
+ Text Domain:  astral enfant
 */
+
+.post-thumbnail  {
+    text-align: center;
+}
+
+.wp-block-cgb-block-my-block {
+    background-color: linen;
+    font-weight: 800;
+}
