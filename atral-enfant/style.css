@@ -17,10 +17,24 @@
 }
 
 .wp-block-cgb-block-my-block {
-    background-color: linen;
+    background-color: rgb(161, 161, 250);
+    font-weight: 800;
+    animation: animGuten 3s infinite;
     font-weight: 800;
 }
 
 .align-blog {
     background-color: moccasin;
+}
+
+@keyframes animGuten {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(200px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
 }
